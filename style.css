@@ -149,36 +149,36 @@ ul li {
     color: white;
     padding: 30px;
     font-size: 18px;
-    border-top: 1px solid #ccc; /* Linha para separar do conteúdo */
+    border-top: 1px solid #ccc; 
 }
 
 
-@media (max-width: 768px) { /* Para dispositivos menores */
+@media (max-width: 768px) { 
     .content {
-        flex-direction: column; /* Mudança para orientação vertical */
+        flex-direction: column; 
     }
     
     .left-section {
-        border-right: 0; /* Remove a linha de divisão */
+        border-right: 0; 
     }
 }
 
 .social-media {
     display: flex;
-    flex-direction: column; /* Alinha os ícones verticalmente */
-    gap: 10px; /* Espaçamento entre ícones */
+    flex-direction: column; 
+    gap: 10px; 
 }
 
 .social-media a {
-    text-decoration: none; /* Remove sublinhado */
-    color: #333; /* Cor padrão */
-    font-size: 16px; /* Tamanho de texto */
+    text-decoration: none; 
+    color: #333; 
+    font-size: 16px; 
 }
 
 .social-media i {
-    font-size: 25px; /* Tamanho dos ícones */
-    color: #555; /* Cor padrão */
-    margin-right: 10px; /* Espaço entre ícone e texto */
+    font-size: 25px; 
+    color: #555; 
+    margin-right: 10px; 
 }
 
 .social-media a:hover, .social-media i:hover {
